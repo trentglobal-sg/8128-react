@@ -7,6 +7,7 @@
 4. Select a variant: select `JavaScript`
 5. Select a linter: `Oxlint` (just press ENTER)
 6. Install with npm and start now? `Yes`
+7. Delete the content of `App.jsx`, `App.css` and `index.css` (don't delete the file)
 
 ## How to start a React project manually
 1. `cd` into the directory from your terminal
@@ -17,3 +18,4 @@
 ## To deploy a React application
 1. Build the application: `npm run build`
 2. Upload the files in the `dist` folder to a web server
+
