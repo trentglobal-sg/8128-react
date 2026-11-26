@@ -1,3 +1,4 @@
+import Box from "../Box"
 import ContactUs from "./ContactUs"
 import SumTwo from "./SumTwo"
 
@@ -17,6 +18,9 @@ export default function App() {
     {header}
 
     <SumTwo number1={3} number2={4}/>
+
+    <Box width={80} height={80} background="tomato"/>
+    <Box width={120} height={60} background="steelBlue"/>
 
 
 {/* A component can have properties. Each property will become a key in the props parameter */}
